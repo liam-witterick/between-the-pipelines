@@ -1,0 +1,30 @@
+# Between the Pipelines
+
+**Between the Pipelines** is a personal blog by [Liam Witterick](https://github.com/liam-witterick), exploring the human, strategic, and occasionally chaotic side of modern CloudOps.
+
+This site captures real-world insights, patterns, and stories from the world of:
+- Cloud infrastructure (AWS + Azure)
+- Kubernetes & Helm
+- CI/CD (GitHub Actions, ArgoCD)
+- Terraform
+- Platform thinking
+- Leadership in DevOps
+
+Built using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and hosted on [GitHub Pages](https://pages.github.com/).
+
+## 🚀 Running Locally
+
+```bash
+pip install mkdocs-material
+mkdocs serve
+```
+
+Then visit `http://localhost:8000` to view the site.
+
+## 🛠️ Deploying
+
+```bash
+mkdocs gh-deploy
+```
+
+This will build the static site and push it to the `gh-pages` branch for GitHub Pages hosting.
